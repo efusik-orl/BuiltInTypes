@@ -33,6 +33,6 @@ else:
     print("Наибольший четный элемент:", max_even)
 
 # сортируем список по убыванию положительных чисел
-lst.sort(key=lambda x: x >= 0, reverse=True)
+lst.sort(reverse=True)
 print("Список после преобразования:", lst)
 
